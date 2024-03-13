@@ -11,7 +11,7 @@ export default function Home() {
 
       <div
         id="section-how-it-works"
-        className="h-[60rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.1] relative flex items-center justify-center"
+        className="h-[73rem] lg:h-[60rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.1] relative flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
@@ -22,9 +22,9 @@ export default function Home() {
             </h2>
 
             <div className="flex flex-wrap items-center">
-              <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12 -mt-14">
+              <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12  hidden lg:block">
                 <div className="relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20">
-                  <img src="/photos/176.jpg" className="w-full" />
+                  <img src="/photos/176.jpg" className="w-full h-[600px]" />
 
                   <div className="absolute overflow-hidden top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsl(0,0%,0%,0.6)] bg-fixed antialiased">
                     <BackgroundBeams />
