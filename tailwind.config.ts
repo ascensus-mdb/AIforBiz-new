@@ -18,6 +18,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        slate: {
+          '1000': '#060911', 
+        },
+      },
       animation: {
         // Add your animation here
         shimmer: "shimmer 2s linear infinite",
@@ -72,6 +77,7 @@ const config: Config = {
       );
     },
   ],
+  darkMode: "class"
 };
 
 function addVariablesForColors({ addBase, theme }: any) {

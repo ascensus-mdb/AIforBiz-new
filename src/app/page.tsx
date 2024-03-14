@@ -11,13 +11,13 @@ export default function Home() {
 
       <div
         id="section-how-it-works"
-        className="h-[73rem] lg:h-[60rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.1] relative flex items-center justify-center"
+        className="h-[80rem] lg:h-[68rem] w-full dark:bg-slate-1000 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.1] relative flex items-center justify-center"
       >
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-slate-1000 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="container mx-auto md:px-6">
-          <section className="">
-            <h2 className="mb-16 text-center text-3xl font-bold">
+          <section className="mb-20">
+            <h2 className="mb-16 text-center text-3xl font-bold text-neutral-600 dark:text-neutral-200">
               How it works
             </h2>
 
@@ -61,7 +61,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-2 font-bold">You contact us </p>
+                    <p className="mb-2 font-bold text-neutral-600 dark:text-neutral-200">
+                      You contact us{" "}
+                    </p>
                     <p className="text-neutral-600 dark:text-neutral-300">
                       Contact us to kickstart your AI journey and unlock the
                       potential of advanced technology for your business.
@@ -89,7 +91,9 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-2 font-bold">We analyze your business</p>
+                    <p className="mb-2 font-bold text-neutral-600 dark:text-neutral-200">
+                      We analyze your business
+                    </p>
                     <p className="text-neutral-600 dark:text-neutral-300">
                       Our experts analyze your unique business needs to tailor
                       an AI solution that fits seamlessly into your operations.
@@ -117,7 +121,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-2 font-bold">
+                    <p className="mb-2 font-bold text-neutral-600 dark:text-neutral-200">
                       We provide proof of concept
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-300">
@@ -148,7 +152,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-2 font-bold">
+                    <p className="mb-2 font-bold text-neutral-600 dark:text-neutral-200">
                       We deliver first AI-driven solution for you
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-300">
@@ -178,7 +182,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4 grow">
-                    <p className="mb-2 font-bold">
+                    <p className="mb-2 font-bold text-neutral-600 dark:text-neutral-200">
                       Together we evaluate, iterate and scale AI in your company
                     </p>
                     <p className="text-neutral-600 dark:text-neutral-300">
@@ -191,19 +195,19 @@ export default function Home() {
               </div>
             </div>
           </section>
-        </div>
-      </div>
 
-      <div className="flex justify-center pb-20">
-        <TERipple rippleColor="light">
-          <a
-            target="_blank"
-            href="https://cognivis.ai/book-a-call/"
-            className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-900 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none  focus:ring-offset-slate-50"
-          >
-            Book a call
-          </a>
-        </TERipple>
+          <div className="flex justify-center pb-32 lg:pb-0">
+            <TERipple rippleColor="light">
+              <a
+                target="_blank"
+                href="https://cognivis.ai/book-a-call/"
+                className="inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-900 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none  focus:ring-offset-slate-50"
+              >
+                Book a call
+              </a>
+            </TERipple>
+          </div>
+        </div>
       </div>
     </main>
   );
